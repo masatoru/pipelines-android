@@ -12,6 +12,9 @@ steps:
     echo "JAVA_HOME set to $(JAVA_HOME_11_X64)"
   displayName: 'Set Java 11 as default'
 
+- script: chmod +x ./gradlew
+  displayName: 'Give execute permissions to gradlew'
+
 - script: |
     ./gradlew assembleDebug -Dorg.gradle.java.home=$(JAVA_HOME)
   displayName: 'Run Gradle with Java 11'
