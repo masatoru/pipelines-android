@@ -73,11 +73,11 @@ android {
  */
 dependencies {
     // App's dependencies, including test
-    implementation "androidx.appcompat:appcompat:$rootProject.supportLibraryVersion"
-    implementation "androidx.cardview:cardview:$rootProject.supportLibraryVersion"
-    implementation "com.google.android.material:material:$rootProject.supportLibraryVersion"
-    implementation "androidx.recyclerview:recyclerview:$rootProject.supportLibraryVersion"
-    implementation "androidx.legacy:legacy-support-v4:$rootProject.supportLibraryVersion"
+    implementation "androidx.appcompat:appcompat:$rootProject.androidxVersion"
+    implementation "androidx.cardview:cardview:$rootProject.androidxVersion"
+    implementation "com.google.android.material:material:$rootProject.androidxVersion"
+    implementation "androidx.recyclerview:recyclerview:$rootProject.androidxVersion"
+    implementation "androidx.legacy:legacy-support-v4:$rootProject.androidxVersion"
     implementation "androidx.test.espresso.idling:idling-concurrent:$rootProject.espressoVersion"
     implementation "com.google.guava:guava:$rootProject.guavaVersion"
 
@@ -102,9 +102,9 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-intents:$rootProject.espressoVersion"
 
     // Resolve conflicts between main and test APK:
-    androidTestImplementation "androidx.annotation:annotation:$rootProject.supportLibraryVersion"
-    androidTestImplementation "androidx.legacy:legacy-support-v4:$rootProject.supportLibraryVersion"
-    androidTestImplementation "androidx.recyclerview:recyclerview:$rootProject.supportLibraryVersion"
-    androidTestImplementation "androidx.appcompat:appcompat:$rootProject.supportLibraryVersion"
-    androidTestImplementation "com.google.android.material:material:$rootProject.supportLibraryVersion"
+    androidTestImplementation "androidx.annotation:annotation:$rootProject.androidxVersion"
+    androidTestImplementation "androidx.legacy:legacy-support-v4:$rootProject.androidxVersion"
+    androidTestImplementation "androidx.recyclerview:recyclerview:$rootProject.androidxVersion"
+    androidTestImplementation "androidx.appcompat:appcompat:$rootProject.androidxVersion"
+    androidTestImplementation "com.google.android.material:material:$rootProject.androidxVersion"
 }
