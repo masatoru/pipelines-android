@@ -19,9 +19,9 @@ package com.microsoft.sample.taskdetail;
 import android.os.Bundle;
 import android.support.annotation.VisibleForTesting;
 import android.support.test.espresso.IdlingResource;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.support.app.ActionBar;
+import android.support.app.AppCompatActivity;
+import android.support.widget.Toolbar;
 
 import com.microsoft.sample.Injection;
 import com.microsoft.sample.R;

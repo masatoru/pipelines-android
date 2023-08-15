@@ -26,7 +26,7 @@ import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
 import android.support.test.runner.lifecycle.ActivityLifecycleMonitor;
 import android.support.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
-import android.support.v7.widget.Toolbar;
+import android.support.widget.Toolbar;
 
 import java.util.Collection;
 

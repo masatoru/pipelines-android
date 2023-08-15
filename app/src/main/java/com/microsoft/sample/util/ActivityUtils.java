@@ -17,9 +17,9 @@
 package com.microsoft.sample.util;
 
 import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import android.support.app.Fragment;
+import android.support.app.FragmentManager;
+import android.support.app.FragmentTransaction;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

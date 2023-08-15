@@ -21,11 +21,11 @@ import android.os.Bundle;
 import android.support.annotation.VisibleForTesting;
 import android.support.design.widget.NavigationView;
 import android.support.test.espresso.IdlingResource;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.support.view.GravityCompat;
+import android.support.widget.DrawerLayout;
+import android.support.app.ActionBar;
+import android.support.app.AppCompatActivity;
+import android.support.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.microsoft.sample.Injection;
