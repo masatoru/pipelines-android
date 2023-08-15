@@ -20,9 +20,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.support.test.espresso.IdlingResource;
-import android.support.app.ActionBar;
-import android.support.app.AppCompatActivity;
-import android.support.widget.Toolbar;
+import androidx.support.app.ActionBar;
+import androidx.support.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.microsoft.sample.Injection;
 import com.microsoft.sample.R;

@@ -22,10 +22,10 @@ import android.support.annotation.VisibleForTesting;
 import android.support.design.widget.NavigationView;
 import android.support.test.espresso.IdlingResource;
 import android.support.view.GravityCompat;
-import android.support.widget.DrawerLayout;
-import android.support.app.ActionBar;
-import android.support.app.AppCompatActivity;
-import android.support.widget.Toolbar;
+import androidx.appcompat.widget.DrawerLayout;
+import androidx.support.app.ActionBar;
+import androidx.support.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.microsoft.sample.Injection;

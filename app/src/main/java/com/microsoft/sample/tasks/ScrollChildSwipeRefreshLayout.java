@@ -18,7 +18,7 @@ package com.microsoft.sample.tasks;
 
 import android.content.Context;
 import android.support.view.ViewCompat;
-import android.support.widget.SwipeRefreshLayout;
+import androidx.appcompat.widget.SwipeRefreshLayout;
 import android.util.AttributeSet;
 import android.view.View;
 
