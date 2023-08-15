@@ -7,11 +7,10 @@ pool:
   vmImage: 'macOS-latest'
 
 steps:
-- task: UseJava@0
-  inputs:
-    version: '11'
-    jdkArchitecture: 'x64'
-    jdkSourceOption: 'PreInstalled'
+- script: |
+    echo "##vso[task.setvariable variable=JAVA_HOME]$(JAVA_HOME_11_X64)"
+    echo "##vso[task.setvariable variable=PATH]$(JAVA_HOME_11_X64)/bin:$(PATH)"
+  displayName: 'Set Java 11 as default'
 - task: Gradle@2
   inputs:
     workingDirectory: ''
