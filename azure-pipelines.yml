@@ -7,6 +7,11 @@ pool:
   vmImage: 'macOS-latest'
 
 steps:
+- task: UseJava@0
+  inputs:
+    version: '11'
+    jdkArchitecture: 'x64'
+    jdkSourceOption: 'PreInstalled'
 - task: Gradle@2
   inputs:
     workingDirectory: ''
