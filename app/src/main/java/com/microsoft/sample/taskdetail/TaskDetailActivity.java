@@ -18,7 +18,7 @@ package com.microsoft.sample.taskdetail;
 
 import android.os.Bundle;
 import androidx.annotation.VisibleForTesting;
-import android.support.test.espresso.IdlingResource;
+import androidx.test.espresso.IdlingResource;
 // import androidx.support.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
