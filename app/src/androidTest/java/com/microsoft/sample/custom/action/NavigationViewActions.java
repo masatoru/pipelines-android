@@ -19,7 +19,7 @@ package com.microsoft.sample.custom.action;
 import org.hamcrest.Matcher;
 
 import android.content.res.Resources.NotFoundException;
-import android.support.design.widget.NavigationView;
+import androidx.navigation.ui.NavigationView;
 import android.support.test.espresso.PerformException;
 import android.support.test.espresso.UiController;
 import android.support.test.espresso.ViewAction;

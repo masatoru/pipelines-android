@@ -19,12 +19,12 @@ package com.microsoft.sample.tasks;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.VisibleForTesting;
-import android.support.design.widget.NavigationView;
+import androidx.navigation.ui.NavigationView;
 import android.support.test.espresso.IdlingResource;
 import android.support.view.GravityCompat;
 import androidx.appcompat.widget.DrawerLayout;
-import androidx.support.app.ActionBar;
-import androidx.support.app.AppCompatActivity;
+// import androidx.support.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 

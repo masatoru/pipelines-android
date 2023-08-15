@@ -28,7 +28,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.design.widget.AppBarLayout
+        <androidx.navigation.ui.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -40,7 +40,7 @@
                 android:minHeight="?attr/actionBarSize"
                 android:theme="@style/Toolbar"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-        </android.support.design.widget.AppBarLayout>
+        </androidx.navigation.ui.AppBarLayout>
 
         <FrameLayout
             android:id="@+id/contentFrame"
@@ -50,7 +50,7 @@
     </LinearLayout>
 
     <!-- Navigation Drawer -->
-    <android.support.design.widget.NavigationView
+    <androidx.navigation.ui.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

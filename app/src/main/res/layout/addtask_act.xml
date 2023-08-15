@@ -27,7 +27,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.design.widget.AppBarLayout
+        <androidx.navigation.ui.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -39,9 +39,9 @@
                 android:minHeight="?attr/actionBarSize"
                 android:theme="@style/Toolbar"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-        </android.support.design.widget.AppBarLayout>
+        </androidx.navigation.ui.AppBarLayout>
 
-        <android.support.design.widget.CoordinatorLayout
+        <androidx.navigation.ui.CoordinatorLayout
             android:id="@+id/coordinatorLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-            <android.support.design.widget.FloatingActionButton
+            <androidx.navigation.ui.FloatingActionButton
                 android:id="@+id/fab_edit_task_done"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                 app:fabSize="normal"
                 app:layout_anchor="@id/contentFrame"
                 app:layout_anchorGravity="bottom|right|end" />
-        </android.support.design.widget.CoordinatorLayout>
+        </androidx.navigation.ui.CoordinatorLayout>
 
     </LinearLayout>
 
