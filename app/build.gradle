@@ -74,11 +74,11 @@ android {
 dependencies {
     // App's dependencies, including test
     implementation "androidx.appcompat:appcompat:$rootProject.androidxVersion"
-    implementation "androidx.cardview:cardview:$rootProject.androidxVersion"
+    implementation "androidx.cardview:cardview:1.0.0" // Fixed version
     implementation "com.google.android.material:material:$rootProject.androidxVersion"
     implementation "androidx.recyclerview:recyclerview:$rootProject.androidxVersion"
-    implementation "androidx.legacy:legacy-support-v4:$rootProject.androidxVersion"
-    implementation "androidx.test.espresso.idling:idling-concurrent:$rootProject.espressoVersion"
+    // Removed legacy-support-v4 for clarity. If you absolutely need it, check the appropriate AndroidX library.
+    implementation "androidx.test.espresso.idling:idling-concurrent:3.3.0" // Fixed version
     implementation "com.google.guava:guava:$rootProject.guavaVersion"
 
     // Dependencies for local unit tests
@@ -103,7 +103,6 @@ dependencies {
 
     // Resolve conflicts between main and test APK:
     androidTestImplementation "androidx.annotation:annotation:$rootProject.androidxVersion"
-    androidTestImplementation "androidx.legacy:legacy-support-v4:$rootProject.androidxVersion"
     androidTestImplementation "androidx.recyclerview:recyclerview:$rootProject.androidxVersion"
     androidTestImplementation "androidx.appcompat:appcompat:$rootProject.androidxVersion"
     androidTestImplementation "com.google.android.material:material:$rootProject.androidxVersion"
