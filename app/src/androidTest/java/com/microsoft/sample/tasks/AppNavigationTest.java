@@ -20,7 +20,7 @@ import androidx.test.espresso.NoActivityResumedException;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
-import androidx.navigation.ui.DrawerLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import android.view.Gravity;
 
 import com.microsoft.sample.R;

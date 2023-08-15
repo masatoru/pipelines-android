@@ -19,13 +19,13 @@ package com.microsoft.sample.custom.action;
 import org.hamcrest.Matcher;
 
 import android.content.res.Resources.NotFoundException;
-import androidx.navigation.ui.NavigationView;
+import com.google.android.material.navigation.NavigationView;
 import androidx.test.espresso.PerformException;
 import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.espresso.util.HumanReadables;
-import androidx.navigation.ui.DrawerLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
