@@ -16,8 +16,8 @@
 
 package com.microsoft.sample.util;
 
-import android.support.annotation.NonNull;
-import androidx.support.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import androidx.support.app.FragmentManager;
 import androidx.support.app.FragmentTransaction;
 

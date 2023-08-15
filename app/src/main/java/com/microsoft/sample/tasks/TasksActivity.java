@@ -18,7 +18,7 @@ package com.microsoft.sample.tasks;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import androidx.drawerlayout.widget.NavigationView;
 import android.support.test.espresso.IdlingResource;
 import android.core.view.GravityCompat;

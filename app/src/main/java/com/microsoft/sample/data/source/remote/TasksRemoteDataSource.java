@@ -17,7 +17,7 @@
 package com.microsoft.sample.data.source.remote;
 
 import android.os.Handler;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.microsoft.sample.data.Task;
 import com.microsoft.sample.data.source.TasksDataSource;

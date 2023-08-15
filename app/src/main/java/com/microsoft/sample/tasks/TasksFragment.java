@@ -18,11 +18,11 @@ package com.microsoft.sample.tasks;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import androidx.navigation.ui.FloatingActionButton;
-import androidx.navigation.ui.Snackbar;
-import androidx.support.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.fragment.app.Fragment;
 import android.support.content.ContextCompat;
 import androidx.appcompat.widget.SwipeRefreshLayout;
 import androidx.appcompat.widget.PopupMenu;
