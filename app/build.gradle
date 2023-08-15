@@ -97,9 +97,9 @@ dependencies {
     androidTestImplementation 'com.google.dexmaker:dexmaker-mockito:1.2'
 
     // Espresso UI Testing
-    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-contrib:$rootProject.espressoVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-intents:$rootProject.espressoVersion"
+    // androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
+    // androidTestImplementation "androidx.test.espresso:espresso-contrib:$rootProject.espressoVersion"
+    // androidTestImplementation "androidx.test.espresso:espresso-intents:$rootProject.espressoVersion"
 
     // Resolve conflicts between main and test APK:
     androidTestImplementation "androidx.annotation:annotation:$rootProject.androidxVersion"
