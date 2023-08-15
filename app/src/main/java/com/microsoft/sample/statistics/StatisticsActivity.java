@@ -17,10 +17,10 @@
 package com.microsoft.sample.statistics;
 
 import android.os.Bundle;
-import androidx.navigation.ui.NavigationView;
-import androidx.support.app.NavUtils;
-import android.support.view.GravityCompat;
-import androidx.appcompat.widget.DrawerLayout;
+import androidx.drawerlayout.widget.NavigationView;
+import androidx.core.app.NavUtils;
+import android.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 // import androidx.support.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
